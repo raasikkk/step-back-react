@@ -1,0 +1,8 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply p-1.5 px-3 rounded-md shadow-lg shadow-blue-500/60 transition hover:-translate-y-0.5 text-white;
+}
